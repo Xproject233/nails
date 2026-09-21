@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cozy Lab — Beauty Salon · Алматы, Аксай-5</title>
+<meta name="description" content="Cozy Lab — beauty salon в Алматы (Аксай-5, 25). Маникюр, педикюр, ресницы, волосы, экспресс в 4 руки. 4.8★ · 702 оценки. Ежедневно 10:00–21:00. −10% на первый визит. Запись через WhatsApp за минуту.">
+<meta name="theme-color" content="#f5f0e8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Pinyon+Script&family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤍</text></svg>">
+</head>
+<body>
+
+<!-- ═══ REFERENCE HEADER — exact ═══ -->
+<header class="ref" id="top">
+  <div class="ref__top">
+    <div class="ref__left">
+      <h1 class="ref__title">Beauty Salon</h1>
+      <p class="ref__script">Web design</p>
+    </div>
+    <div class="ref__right">
+      <span class="ref__brand">COZY LAB</span>
+      <nav class="ref__nav">
+        <a href="#services">Услуги</a><a href="#masters">Мастера</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a>
+      </nav>
+      <button class="ref__book" data-book>Book →</button>
+    </div>
+  </div>
+
+  <!-- ═══ HERO — same diptych + marketing overlay ═══ -->
+  <div class="ref__grid">
+    <figure class="ref__cell">
+      <img src="assets/ig/cozy-02.jpg" alt="Нюдовый маникюр Cozy Lab — работа студии" fetchpriority="high">
+    </figure>
+    <figure class="ref__cell">
+      <img class="right" src="assets/ig/cozy-01.jpg" alt="Маникюр крупным планом — работа Cozy Lab" fetchpriority="high">
+    </figure>
+
+    <div class="hero-card">
+      <p class="hero-card__k">Cozy Lab · Аксай-5, 25 · 10:00–21:00</p>
+      <h2 class="hero-card__t">Спокойная красота <em>в 4 руки</em></h2>
+      <p class="hero-card__s">Маникюр · педикюр · ресницы · волосы. Два мастера параллельно — вдвое быстрее. 4.8 ★ · 702 оценки · −10% первый визит.</p>
+      <div class="hero-card__row">
+        <button class="btn btn--dark" data-book>Выбрать время</button>
+        <a class="hero-card__link" href="#services">смотреть прайс →</a>
+      </div>
+    </div>
+  </div>
+  <div class="ref__strip">
+    <span>маникюр — педикюр — ресницы — волосы</span>
+    <span>запись за минуту · WhatsApp</span>
+  </div>
+</header>
+
+<main>
+<!-- ═══ HERO MARKETING ═══ -->
+<section class="wrap hero-m">
+  <div class="hero-m__grid">
+    <div>
+      <p class="k">01 — салон</p>
+      <h2 class="h">Тихое место<br>с <em>тёплыми руками</em></h2>
+      <div class="cta-row">
+        <button class="btn btn--dark" data-book>Записаться онлайн</button>
+        <a class="btn btn--line" href="#services">Прайс</a>
+      </div>
+      <p class="micro">ответим в WhatsApp за ~5 минут · подтвердим мастера и окно</p>
+    </div>
+    <div>
+      <p class="lede">Три филиала в Алматы. Стерильно, спокойно, по записи. Экспресс «в 4 руки»: маникюр и педикюр одновременно — один час вместо двух.</p>
+      <div class="stats">
+        <div class="stat"><b>4.8 ★</b><span>702 оценки</span></div>
+        <div class="stat"><b>10–21</b><span>ежедневно</span></div>
+        <div class="stat"><b>−10%</b><span>первый визит</span></div>
+        <div class="stat"><b>−15%</b><span>ресницы</span></div>
+      </div>
+      <div class="promo">
+        <div><span>акция 01.07–31.12.26</span><b>−10% на первый визит</b></div>
+        <button data-book>активировать →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section class="wrap" id="services">
+  <div class="sec-head">
+    <div><p class="k">02 — услуги и цены</p><h2 class="h">Прайс</h2></div>
+    <p class="sec-note">нажми на строку —<br>цена встанет в заявку</p>
+  </div>
+  <div class="plist" id="plist"></div>
+  <p class="fine">Точную стоимость подтверждает мастер в WhatsApp · цены меняются в app.js</p>
+</section>
+
+<!-- ═══ GALLERY ═══ -->
+<section class="band" id="gallery">
+  <div class="wrap sec-head">
+    <div><p class="k">03 — работы</p><h2 class="h">Текстуры</h2></div>
+    <p class="sec-note">тяни → · клик — крупно</p>
+  </div>
+  <div class="strip" id="strip">
+    <figure class="shot"><img src="assets/ig/cozy-03.jpg" alt="Работа Cozy Lab — маникюр" loading="lazy"><figcaption>cozy · 01</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-04.jpg" alt="Работа Cozy Lab — покрытие" loading="lazy"><figcaption>cozy · 02</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-05.jpg" alt="Работа Cozy Lab — ногти" loading="lazy"><figcaption>cozy · 03</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-06.jpg" alt="Работа Cozy Lab — детали" loading="lazy"><figcaption>cozy · 04</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-07.jpg" alt="Работа Cozy Lab — дизайн" loading="lazy"><figcaption>cozy · 05</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-08.jpg" alt="Работа Cozy Lab — маникюр" loading="lazy"><figcaption>cozy · 06</figcaption></figure>
+    <figure class="shot"><img src="assets/ig/cozy-09.jpg" alt="Работа Cozy Lab — покрытие" loading="lazy"><figcaption>cozy · 07</figcaption></figure>
+  </div>
+  <p class="wrap fine">Фото — из Instagram студии: <a href="https://www.instagram.com/cozylab_almaty" target="_blank" rel="noopener">@cozylab_almaty</a></p>
+</section>
+
+<!-- ═══ MASTERS ═══ -->
+<section class="wrap" id="masters">
+  <p class="k">04 — мастера</p>
+  <h2 class="h">Руки, которым <em>доверяют</em></h2>
+  <p class="lede">Те самые имена из отзывов. Кнопка подставит мастера в заявку.</p>
+  <div class="masters">
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=700&auto=format&fit=crop" alt="Куралган" loading="lazy"></div>
+      <h3>Куралган</h3><p>Идеальная форма, ровное покрытие. Маникюр и педикюр.</p>
+      <button class="tlink" data-book data-master="Куралган">к Куралган →</button>
+    </article>
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=700&auto=format&fit=crop" alt="Мадина" loading="lazy"></div>
+      <h3>Мадина</h3><p>Тонкий френч, бережная работа. Топ-мастер.</p>
+      <button class="tlink" data-book data-master="Мадина">к Мадине →</button>
+    </article>
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=700&auto=format&fit=crop" alt="Измира" loading="lazy"></div>
+      <h3>Измира</h3><p>Аккуратность, к которой возвращаются.</p>
+      <button class="tlink" data-book data-master="Измира">к Измире →</button>
+    </article>
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=700&auto=format&fit=crop" alt="Аружан" loading="lazy"></div>
+      <h3>Аружан</h3><p>Чистые линии — и маникюр, и педикюр.</p>
+      <button class="tlink" data-book data-master="Аружан">к Аружан →</button>
+    </article>
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=700&auto=format&fit=crop" alt="Алия" loading="lazy"></div>
+      <h3>Алия</h3><p>Ресницы — так нежно, что засыпаешь.</p>
+      <button class="tlink" data-book data-master="Алия">к Алие →</button>
+    </article>
+    <article class="master">
+      <div class="master__ph"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=700&auto=format&fit=crop" alt="Нарханым" loading="lazy"></div>
+      <h3>Нарханым</h3><p>Настроение на весь день — красивым маникюром.</p>
+      <button class="tlink" data-book data-master="Нарханым">к Нарханым →</button>
+    </article>
+  </div>
+</section>
+
+<!-- ═══ REVIEWS ═══ -->
+<section class="band" id="reviews">
+  <div class="wrap sec-head">
+    <div><p class="k">05 — отзывы</p><h2 class="h">702 голоса</h2></div>
+    <div class="rev-nav"><button id="revPrev" aria-label="Назад">←</button><button id="revNext" aria-label="Вперёд">→</button></div>
+  </div>
+  <div class="wrap rev-track" id="revTrack">
+    <blockquote class="rev"><p>«Делаю маникюр и педикюр уже полгода — всё на отлично. Можно записаться день в день»</p><footer><b>Madina Mametova</b><span>★★★★★</span></footer></blockquote>
+    <blockquote class="rev"><p>«Куралган и Мадина — в полном восторге! Аккуратно, форма идеальная»</p><footer><b>Венера Т</b><span>★★★★★</span></footer></blockquote>
+    <blockquote class="rev"><p>«Наращивание у Алии — настолько нежно, что я уснула. 10 из 10!»</p><footer><b>Жадра Данаева</b><span>★★★★★</span></footer></blockquote>
+    <blockquote class="rev"><p>«Френч от Мадины — бережно, чисто, учла все пожелания»</p><footer><b>Жулдыз Ка</b><span>★★★★★</span></footer></blockquote>
+    <blockquote class="rev"><p>«Сервис с первых минут: забота, комфорт, профессионализм»</p><footer><b>Александра Пак</b><span>★★★★★</span></footer></blockquote>
+  </div>
+</section>
+
+<!-- ═══ BOOKING ═══ -->
+<section class="wrap booking" id="booking">
+  <div class="booking__grid">
+    <div>
+      <p class="k">06 — запись</p>
+      <h2 class="h">Выбери <em>время</em></h2>
+      <ol class="steps">
+        <li><b>01</b> Впиши имя, выбери услугу, дату и время</li>
+        <li><b>02</b> Нажми «Отправить в WhatsApp»</li>
+        <li><b>03</b> Имя · время · цена уже в сообщении — подтвердим запись</li>
+      </ol>
+    </div>
+    <div class="booking__card">
+      <p class="booking__ticket" id="ticketLine2">следующее окно · сегодня 10:00–21:00</p>
+      <button class="btn btn--dark btn--big" data-book>Открыть форму записи</button>
+      <p class="fine">Аксай-5, 25 · по записи · +7 747 196-96-92</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACTS ═══ -->
+<section class="wrap contacts" id="contacts">
+  <p class="k">07 — контакты</p>
+  <h2 class="h">Ждём <em>в гости</em></h2>
+  <div class="contacts__grid">
+    <div class="c"><h3>Адрес</h3><p>мкр. Аксай-5, 25<br>А12 бутик, 1 этаж · Алматы</p><a class="tlink" href="https://2gis.kz/almaty/search/Cozy%20lab" target="_blank" rel="noopener">2ГИС →</a></div>
+    <div class="c"><h3>Часы</h3><p>Ежедневно 10:00–21:00<br>по записи · 3 филиала</p><button class="tlink" data-book>выбрать время →</button></div>
+    <div class="c"><h3>Связь</h3><p><a class="tlink" href="tel:+77471969692">+7 747 196-96-92</a><br><a class="tlink" href="https://www.instagram.com/cozylab_almaty" target="_blank" rel="noopener">Instagram →</a></p><button class="btn btn--dark" data-book>WhatsApp</button></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot wrap"><span>COZY LAB · beauty salon</span><span>© 2026 · Алматы</span><a href="#top">наверх ↑</a></footer>
+
+<!-- Booking modal -->
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Запись">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box">
+    <button class="modal__x" data-close aria-label="Закрыть">×</button>
+    <p class="k">запись · cozy lab</p>
+    <h3 class="mh">Детали визита</h3>
+    <form id="bookForm" novalidate>
+      <label>Ваше имя *<input type="text" id="fName" placeholder="Например, Аяулым" autocomplete="name" required></label>
+      <div class="row">
+        <label>Услуга<select id="fService" required></select></label>
+        <label>Мастер<select id="fMaster"></select></label>
+      </div>
+      <div class="fl">Дата<div class="dates" id="dateRow"></div></div>
+      <div class="fl">Время · 10:00–21:00<div class="slots" id="slots"></div></div>
+      <label class="chk"><input type="checkbox" id="fFirst" checked><span>Первый визит — <b>−10%</b></span></label>
+      <p class="pr">Итого: <b id="priceOut">—</b></p>
+      <p class="tl" id="ticketLine">выбери дату и время ↓</p>
+      <button type="submit" class="btn wa">Отправить в WhatsApp</button>
+      <p class="fine">Откроется WhatsApp с готовым текстом: имя · время · цена · дата.</p>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true"><button id="lbClose" aria-label="Закрыть">×</button><figure><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure></div>
+
+<script src="app.js"></script>
+</body>
+</html>
